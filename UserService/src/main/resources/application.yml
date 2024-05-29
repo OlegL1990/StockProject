@@ -1,0 +1,10 @@
+server:
+  port: 8003
+
+spring:
+  data:
+    mongodb:
+      database: stockDB
+      uri: "${MONGO_DB_URI}"
+
+
